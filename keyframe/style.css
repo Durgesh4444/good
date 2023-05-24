@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding: 0;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    animation-duration: 5s;
+    animation-name: box;
+}
+
+@keyframes box{
+    0%{
+        background-color:pink;
+    }
+    25%{
+        background-color: rgb(251, 145, 162);
+    }
+    50%{
+        background-color: rgb(224, 78, 127);
+    }
+    75%{
+        background-color: rgb(232, 31, 145);
+    }
+    100%{
+        background-color: rgb(15, 229, 33);
+    }
+}
